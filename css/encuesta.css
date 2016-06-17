@@ -1,0 +1,213 @@
+#index_cont, #uno, #dos, #tres, #final {display: none;}
+#page {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#fondo {
+	background: url(../images/Fondo.jpg) no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	background-color: #000;
+	width: auto;
+	height: 100%;
+	overflow: hidden;
+}
+
+.inner {
+	width: 800px;
+	max-height: 605px;
+	margin: auto;
+}
+
+#index_cont {
+	margin-top: 150px;
+	margin-bottom: 25px;
+}
+
+#index {
+	width: 70px;
+	height: 10px;
+	margin: auto;
+}
+
+.content {
+	width: 100%;
+}
+
+#cover {
+	margin-top: 150px;
+}
+
+.item {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #45494c;
+	margin-left: 20px;
+	position: relative;
+	float: left;
+}
+
+#por {
+	width: 250px;
+	margin-bottom: 45px;
+}
+
+.juan {
+	margin-top: 40px;
+	height: auto;
+	margin: auto;
+}
+
+.cuestion {
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#tp {
+	width: 705px;
+}
+
+.text {
+	width: 370px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 24px;
+	margin: auto;
+	text-align: center;
+}
+
+.emoji_content {
+	height: 165px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+#ep {
+	width: 300px;
+}
+
+.emoji {
+	float: left;
+	position: relative;
+	width: 100px;
+	height: 170px;
+	margin-left: 100px;
+	cursor: pointer;
+}
+
+.uno {
+	margin-left: 0px;
+}
+
+.emoji_img {
+	width: 90px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.description {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 24px;
+	width: 133px;
+	text-align: center;
+	position: relative;
+    left: -15px;
+}
+
+#uno {
+	background-color: #11151a;
+	height: 560px;
+	padding-top: 40px;
+}
+
+#pre1 {
+	width: 430px;
+	margin-bottom: 40px;
+}
+
+#t_pr1 {
+	width: 555px;
+}
+
+.e_pr {
+	width: 500px;
+}
+
+#pre2 {
+	width: 245px;
+	margin-bottom: 40px;
+}
+
+#dos {
+	background-color: #11151a;
+	height: 560px;
+	padding-top: 40px;
+}
+
+#t_pr2 {
+	width: 570px;
+}  
+
+#pre3 {
+	width: 164px;
+	margin-bottom: 40px;
+}
+
+#t_pr3 {
+	width: 737px;
+}
+
+#tres {
+	background-color: #11151a;
+	height: 560px;
+	padding-top: 40px;
+}
+
+#fin {
+	width: 260px;
+	margin-bottom: 40px;
+}
+
+#t_fin {
+	width: 694px;
+}
+
+#final {
+	margin-top: 200px;
+}
+
+.area_cont {
+	width: 345px;
+	height: 166px;
+	position: relative;
+	float: left;
+	margin-left: 55px;
+}
+
+.area {
+	width: 344px;
+	height: 110px;
+	border: 2px solid #666d70;
+	background: #151b26; 
+	margin-bottom: 15px;
+	color: #ffffff;
+}
+
+.boton {
+	width: 340px;
+	height: 36px;
+	border: 2px solid #666d70;
+	background: #151b26;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 28px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	cursor: pointer;
+}

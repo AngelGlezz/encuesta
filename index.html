@@ -1,0 +1,111 @@
+ <html>
+ 	<head>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<style>
+			html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+				background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+				border: 0 none;
+				font-size: 100%;
+				margin: 0;
+				outline: 0 none;
+				padding: 0;
+				vertical-align: baseline;
+				width: auto;
+			}  
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/encuesta.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/encuesta.js"></script>
+ 	</head>
+ 	<body>
+ 		<div id="page">
+	 		<div id="fondo">
+	 			<div class="inner" id="index_cont">
+		 			<div id="index">
+		 				<div class="item uno" id="i1"></div>
+			 			<div class="item" id="i2"></div>
+			 			<div class="item" id="i3"></div>
+			 		</div>
+			 	</div>
+			 	<div class="inner">
+		 			<div class="content" id="cover">
+		 				<div class="juan" id="por"><img src="images/Juanitos/Juan_portada.png"></div>
+		 				<div class="cuestion" id="tp"><img src="images/titulos/Titulo_portada.png"></div>
+		 				<div class="text">Responde esta encuesta para ayudarme a seguir conquistando el mundo</div>
+		 				<div class="emoji_content" id="ep">
+		 					<div class="emoji uno" id="si">
+		 						<div class="emoji_img"><img src="images/Reacts/Like.png"></div>
+		 						<div class="description">¡ME SUMO A LA CAUSA!</div>
+		 					</div>
+		 					<div class="emoji" id="no">
+		 						<div class="emoji_img"><img src="images/Reacts/Angry.png"></div>
+		 						<div class="description">NO ME INTERESA</div>
+		 					</div>
+		 				</div>
+		 			</div>
+		 			<div class="content" id="uno">
+		 				<div class="juan" id="pre1"><img src="images/Juanitos/Juan_1.png"></div>
+		 				<div class="cuestion" id="t_pr1"><img src="images/titulos/Pregunta_1.png"></div>
+		 				<div class="emoji_content e_pr" id="ec1">
+		 					<div class="emoji uno pre_1" id="rifaste">
+		 						<div class="emoji_img"><img src="images/Reacts/Love.png"></div>
+		 						<div class="description">TE RIFASTE, JUAN</div>
+		 					</div>
+		 					<div class="emoji pre_1" id="falto">
+		 						<div class="emoji_img"><img src="images/Reacts/Sad.png"></div>
+		 						<div class="description">ALGO TE FALTÓ</div>
+		 					</div>
+		 					<div class="emoji pre_1" id="desastre">
+		 						<div class="emoji_img"><img src="images/Reacts/Angry.png"></div>
+		 						<div class="description">FUISTE UN DESASTRE</div>
+		 					</div>
+		 				</div>
+		 			</div>
+		 			<div class="content" id="dos">
+		 				<div class="juan" id="pre2"><img src="images/Juanitos/Juan_2.png"></div>
+		 				<div class="cuestion" id="t_pr2"><img src="images/titulos/Pregunta_2.png"></div>
+		 				<div class="emoji_content e_pr" id="ec2">
+		 					<div class="emoji uno pre_2" id="conquistaste">
+		 						<div class="emoji_img"><img src="images/Reacts/Love.png"></div>
+		 						<div class="description">ME CONQUISTASTE</div>
+		 					</div>
+		 					<div class="emoji pre_2" id="maso">
+		 						<div class="emoji_img"><img src="images/Reacts/Sad.png"></div>
+		 						<div class="description">MMM, MASO</div>
+		 					</div>
+		 					<div class="emoji pre_2" id="suck">
+		 						<div class="emoji_img"><img src="images/Reacts/Angry.png"></div>
+		 						<div class="description">YOU SUCK</div>
+		 					</div>
+		 				</div>
+		 			</div>
+		 			<div class="content" id="tres">
+		 				<div class="juan" id="pre3"><img src="images/Juanitos/Juan_3.png"></div>
+		 				<div class="cuestion" id="t_pr3"><img src="images/titulos/Pregunta_3.png"></div>
+		 				<div class="emoji_content e_pr" id="ec3">
+		 					<div class="emoji uno pre_3" id="nunca">
+		 						<div class="emoji_img"><img src="images/Reacts/Like.png"></div>
+		 						<div class="description">¡NO TE MUERAS NUNCA!</div>
+		 					</div>
+		 					<div class="emoji pre_3" id="otra">
+		 						<div class="emoji_img"><img src="images/Reacts/Haha.png"></div>
+		 						<div class="description">TE DARÉ OTRA OPORTUNIDAD</div>
+		 					</div>
+		 					<div class="emoji pre_3" id="mejor">
+		 						<div class="emoji_img"><img src="images/Reacts/Sad.png"></div>
+		 						<div class="description">MEJOR ME MATO</div>
+		 					</div>
+		 				</div>
+		 			</div>
+		 			<div class="cover content" id="final">
+		 				<div class="juan" id="fin"><img src="images/Juanitos/Juan_final.png"></div>
+		 				<div class="cuestion" id="t_fin"><img src="images/titulos/Titulo_final.png"></div>
+		 				<div class="text">Te quiero casi tanto como a ChichaDios</div>
+		 			</div>
+		 		</div>
+	 		</div>
+	 	</div>
+ 	</body>
+ </html>
