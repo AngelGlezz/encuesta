@@ -56,7 +56,6 @@ $(document).ready(function(){
 		$("#area2").click(click2);
 	});
 	$(".pre_3").click(function(){
-		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area3">ENVIAR</div></div>';
 		var id = $(this).attr('id');
 		switch (id) {
 			case 'nunca':
