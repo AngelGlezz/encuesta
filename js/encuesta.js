@@ -56,28 +56,9 @@ $(document).ready(function(){
 		$("#area2").click(click2);
 	});
 	$(".pre_3").click(function(){
-		var id = $(this).attr('id');
-		switch (id) {
-			case 'nunca':
-				$("#nunca").addClass('uno');
-				$("#otra").hide();
-				$("#mejor").hide();
-				$("#ec3").append(div);
-			break;
-			case 'otra':
-				$("#otra").addClass('uno');
-				$("#nunca").hide();
-				$("#mejor").hide();
-				$("#ec3").append(div);
-			break;
-			case 'mejor':
-				$("#mejor").addClass('uno');
-				$("#otra").hide();
-				$("#nunca").hide();
-				$("#ec3").append(div);
-			break;
-		}
-		$("#area3").click(click3);
+		$("#tres").fadeOut();
+		$("#final").fadeIn();
+		$("#index_cont").hide();
 	});
 	function click1(){
 		$("#uno").fadeOut();
@@ -88,11 +69,6 @@ $(document).ready(function(){
 		$("#dos").fadeOut();
 		$("#tres").fadeIn();
 		$("#i3").css('background', '#adf21f');
-	};
-	function click3(){
-		$("#tres").fadeOut();
-		$("#final").fadeIn();
-		$("#index_cont").hide();
 	};
 });
 
