@@ -10,21 +10,21 @@ $(document).ready(function(){
 		var id = $(this).attr('id');
 		switch (id) {
 			case 'rifaste':
-				$("#rifaste").addClass('uno');
+				$("#rifaste").unbind('click');
 				$("#falto").hide();
 				$("#desastre").hide();
 				$("#ec1").append(div);
 				$(this).css('margin-left', '0px');
 			break;
 			case 'falto':
-				$("#falto").addClass('uno');
+				$("#falto").unbind('click');
 				$("#rifaste").hide();
 				$("#desastre").hide();
 				$("#ec1").append(div);
 				$(this).css('margin-left', '0px');
 			break;
 			case 'desastre':
-				$("#desastre").addClass('uno');
+				$("#desastre").unbind('click');
 				$("#falto").hide();
 				$("#rifaste").hide();
 				$("#ec1").append(div);
@@ -38,21 +38,21 @@ $(document).ready(function(){
 		var id = $(this).attr('id');
 		switch (id) {
 			case 'conquistaste':
-				$("#conquistaste").addClass('uno');
+				$("#conquistaste").unbind('click');
 				$("#maso").hide();
 				$("#suck").hide();
 				$("#ec2").append(div);
 				$(this).css('margin-left', '0px');
 			break;
 			case 'maso':
-				$("#maso").addClass('uno');
+				$("#maso").unbind('click');
 				$("#conquistaste").hide();
 				$("#suck").hide();
 				$("#ec2").append(div);
 				$(this).css('margin-left', '0px');
 			break;
 			case 'suck':
-				$("#suck").addClass('uno');
+				$("#suck").unbind('click');
 				$("#maso").hide();
 				$("#conquistaste").hide();
 				$("#ec2").append(div);
@@ -78,7 +78,6 @@ $(document).ready(function(){
 		$("#tres").fadeIn();
 		$("#i3 > img").attr('src', 'images/iconos/ic_active3.png');
 		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
-		$("#i3").css('background', '#adf21f');
 	};
 });
 
