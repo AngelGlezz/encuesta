@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$("#si").click(function(){
-		$("#cover").fadeOut();
+		$("#cover").hide();
 		$("#uno").fadeIn();
 		$("#index_cont").show();
 		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
@@ -62,20 +62,20 @@ $(document).ready(function(){
 		$("#area2").click(click2);
 	});
 	$(".pre_3").click(function(){
-		$("#tres").fadeOut();
+		$("#tres").hide();
 		$("#final").fadeIn();
 		$("#index_cont").hide();
 		$("#fondo").css('background', 'url(images/backs/back.jpg)');
 	});
 	function click1(){
-		$("#uno").fadeOut();
+		$("#uno").hide();
 		$("#dos").fadeIn();
 		$("#i2 > img").attr('src', 'images/iconos/ic_active2.png');
 		$("#fondo").css('background', 'url(images/backs/back.jpg)');
 		$("#i2").css('background-color', '#fff');
 	};
 	function click2(){
-		$("#dos").fadeOut();
+		$("#dos").hide();
 		$("#tres").fadeIn();
 		$("#i3 > img").attr('src', 'images/iconos/ic_active3.png');
 		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
