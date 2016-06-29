@@ -78,7 +78,6 @@
 }
 
 .juan {
-	margin-top: 40px;
 	height: auto;
 	margin: auto;
 }
@@ -256,7 +255,6 @@
 #fin {
 	width: 750px;
 	margin-bottom: 40px;
-	margin-top: 50px;
 }
 
 #t_fin {
@@ -264,7 +262,7 @@
 }
 
 #final {
-	margin-top: 200px;
+	margin-top: 150px;
 }
 
 .area_cont {
