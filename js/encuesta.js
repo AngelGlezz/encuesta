@@ -65,7 +65,10 @@ $(document).ready(function(){
 		$("#tres").fadeOut();
 		$("#final").fadeIn();
 		$("#index_cont").hide();
+<<<<<<< HEAD
 		$("#fondo").css('background', 'url(images/backs/back.jpg)');
+=======
+>>>>>>> gh-pages
 	});
 	function click1(){
 		$("#uno").fadeOut();
@@ -76,8 +79,12 @@ $(document).ready(function(){
 	function click2(){
 		$("#dos").fadeOut();
 		$("#tres").fadeIn();
+<<<<<<< HEAD
 		$("#i3 > img").attr('src', 'images/iconos/ic_active3.png');
 		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
+=======
+		$("#i3").css('background', '#adf21f');
+>>>>>>> gh-pages
 	};
 });
 
