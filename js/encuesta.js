@@ -3,7 +3,7 @@ $(document).ready(function(){
 		$("#cover").fadeOut();
 		$("#uno").fadeIn();
 		$("#index_cont").show();
-		$("#i1").css('background', '#adf21f');
+		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
 	});
 	$(".pre_1").click(function(){
 		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area1">ENVIAR</div></div>';
@@ -14,18 +14,21 @@ $(document).ready(function(){
 				$("#falto").hide();
 				$("#desastre").hide();
 				$("#ec1").append(div);
+				$(this).css('margin-left', '0px');
 			break;
 			case 'falto':
 				$("#falto").addClass('uno');
 				$("#rifaste").hide();
 				$("#desastre").hide();
 				$("#ec1").append(div);
+				$(this).css('margin-left', '0px');
 			break;
 			case 'desastre':
 				$("#desastre").addClass('uno');
 				$("#falto").hide();
 				$("#rifaste").hide();
 				$("#ec1").append(div);
+				$(this).css('margin-left', '0px');
 			break;
 		}
 		$("#area1").click(click1);
@@ -39,61 +42,42 @@ $(document).ready(function(){
 				$("#maso").hide();
 				$("#suck").hide();
 				$("#ec2").append(div);
+				$(this).css('margin-left', '0px');
 			break;
 			case 'maso':
 				$("#maso").addClass('uno');
 				$("#conquistaste").hide();
 				$("#suck").hide();
 				$("#ec2").append(div);
+				$(this).css('margin-left', '0px');
 			break;
 			case 'suck':
 				$("#suck").addClass('uno');
 				$("#maso").hide();
 				$("#conquistaste").hide();
 				$("#ec2").append(div);
+				$(this).css('margin-left', '0px');
 			break;
 		}
 		$("#area2").click(click2);
 	});
 	$(".pre_3").click(function(){
-		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area3">ENVIAR</div></div>';
-		var id = $(this).attr('id');
-		switch (id) {
-			case 'nunca':
-				$("#nunca").addClass('uno');
-				$("#otra").hide();
-				$("#mejor").hide();
-				$("#ec3").append(div);
-			break;
-			case 'otra':
-				$("#otra").addClass('uno');
-				$("#nunca").hide();
-				$("#mejor").hide();
-				$("#ec3").append(div);
-			break;
-			case 'mejor':
-				$("#mejor").addClass('uno');
-				$("#otra").hide();
-				$("#nunca").hide();
-				$("#ec3").append(div);
-			break;
-		}
-		$("#area3").click(click3);
+		$("#tres").fadeOut();
+		$("#final").fadeIn();
+		$("#index_cont").hide();
+		$("#fondo").css('background', 'url(images/backs/back.jpg)');
 	});
 	function click1(){
 		$("#uno").fadeOut();
 		$("#dos").fadeIn();
-		$("#i2").css('background', '#adf21f');
+		$("#i2 > img").attr('src', 'images/iconos/ic_active2.png');
+		$("#fondo").css('background', 'url(images/backs/back.jpg)');
 	};
 	function click2(){
 		$("#dos").fadeOut();
 		$("#tres").fadeIn();
-		$("#i3").css('background', '#adf21f');
-	};
-	function click3(){
-		$("#tres").fadeOut();
-		$("#final").fadeIn();
-		$("#index_cont").hide();
+		$("#i3 > img").attr('src', 'images/iconos/ic_active3.png');
+		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
 	};
 });
 

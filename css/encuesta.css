@@ -6,7 +6,7 @@
 }
 
 #fondo {
-	background: url(../images/Fondo.jpg) no-repeat;
+	background: url(../images/backs/back.jpg) no-repeat;
 	background-size: auto 100%;
 	background-position: center;
 	background-color: #000;
@@ -22,13 +22,12 @@
 }
 
 #index_cont {
-	margin-top: 150px;
-	margin-bottom: 25px;
+	margin-top: 50px;
 }
 
 #index {
-	width: 70px;
-	height: 10px;
+	width: 190px;
+	height: 60px;
 	margin: auto;
 }
 
@@ -41,17 +40,23 @@
 }
 
 .item {
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: #45494c;
+	width: 50px;
+	height: 50px;
 	margin-left: 20px;
 	position: relative;
 	float: left;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 50%;
+}
+
+.icono {
+	position: relative;
+	top: 5px;
+	left: 6px;
 }
 
 #por {
-	width: 250px;
+	width: 822px;
 	margin-bottom: 45px;
 }
 
@@ -59,6 +64,11 @@
 	margin-top: 40px;
 	height: auto;
 	margin: auto;
+}
+
+.juan img {
+	max-width: 768px;
+	width: 100%;
 }
 
 .cuestion {
@@ -71,7 +81,7 @@
 }
 
 .text {
-	width: 370px;
+	width: 665px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	color: #ffffff;
@@ -87,15 +97,15 @@
 }
 
 #ep {
-	width: 300px;
+	width: 530px;
 }
 
 .emoji {
 	float: left;
 	position: relative;
-	width: 100px;
-	height: 170px;
-	margin-left: 100px;
+	width: 233px;
+	height: 90px;
+	margin-left: 50px;
 	cursor: pointer;
 }
 
@@ -105,8 +115,8 @@
 
 .emoji_img {
 	width: 90px;
-	margin: auto;
-	margin-bottom: 30px;
+	float: left;
+	margin-right: 10px;
 }
 
 .description {
@@ -117,17 +127,79 @@
 	width: 133px;
 	text-align: center;
 	position: relative;
-    left: -15px;
+    float: left;
+    top: 20px;
+}
+
+#rifaste > .description {
+	width: 97px;
+}
+
+#falto > .description {
+	width: 71px;
+}
+
+#desastre > .description {
+	width: 88px;
+}
+
+#maso > .description {
+	width: 108px;
+	position: relative;
+    top: 35px;
+}
+
+#suck > .description {
+	width: 86px;
+	position: relative;
+    top: 35px;
+}
+
+#mejor > .description {
+	width: 81px;
+}
+
+#rifaste {
+	width: 197px;
+}
+
+#falto {
+	width: 171px;
+}
+
+#desastre {
+	width: 188px;
+}
+
+#suck {
+	width: 186px;
+}
+
+#maso {
+	width: 208px;
+}
+#mejor {
+	width: 181px;
 }
 
 #uno {
-	background-color: #11151a;
-	height: 560px;
-	padding-top: 40px;
+	height: 610px;
+}
+
+#ec1 {
+	width: 660px;
+}
+
+#ec2 {
+	width: 727px;
+}
+
+#ec3 {
+	width: 747px;
 }
 
 #pre1 {
-	width: 430px;
+	width: 520px;
 	margin-bottom: 40px;
 }
 
@@ -135,19 +207,13 @@
 	width: 555px;
 }
 
-.e_pr {
-	width: 500px;
-}
-
 #pre2 {
-	width: 245px;
+	width: 714px;
 	margin-bottom: 40px;
 }
 
 #dos {
-	background-color: #11151a;
-	height: 560px;
-	padding-top: 40px;
+	height: 610px;
 }
 
 #t_pr2 {
@@ -155,7 +221,7 @@
 }  
 
 #pre3 {
-	width: 164px;
+	width: 662px;
 	margin-bottom: 40px;
 }
 
@@ -164,13 +230,11 @@
 }
 
 #tres {
-	background-color: #11151a;
-	height: 560px;
-	padding-top: 40px;
+	height: 610px;
 }
 
 #fin {
-	width: 260px;
+	width: 750px;
 	margin-bottom: 40px;
 }
 
@@ -183,31 +247,253 @@
 }
 
 .area_cont {
-	width: 345px;
+	width: 416px;
 	height: 166px;
 	position: relative;
 	float: left;
-	margin-left: 55px;
+	margin-left: 50px;
 }
 
 .area {
-	width: 344px;
-	height: 110px;
-	border: 2px solid #666d70;
-	background: #151b26; 
+	width: 415px;
+	height: 105px;
+	border: 1px solid #438646;
+	background: #3da65a; 
 	margin-bottom: 15px;
 	color: #ffffff;
+	border-radius: 10px;
 }
 
 .boton {
-	width: 340px;
-	height: 36px;
+	width: 85px;
+	height: 50px;
 	border: 2px solid #666d70;
-	background: #151b26;
+	background: #fff;
 	font-size: 16px;
-	color: #ffffff;
-	line-height: 28px;
+	color: #3da65a;
+	line-height: 50px;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	cursor: pointer;
+	border-radius: 10px;
+	margin: auto;
+}
+
+@media(max-width: 768px) {
+	.inner {
+	    width: 600px;
+	}
+
+	#por {
+		width: 590px;
+	}
+
+	.text {
+	    width: 366px;
+	}
+
+	#rifaste, #falto, #desastre, #conquistaste, 
+	#maso, #suck, #nunca, #otra, #mejor {
+		width: 90px;
+		height: 155px;
+		margin-left: 100px;
+	}
+
+	#rifaste, #conquistaste, #nunca {
+		margin-left: 0px;
+	}
+
+	#falto .description {
+		left: 8px;
+	}
+
+	#ec1, #ec2, #ec3 {
+	    width: 470px;
+	}
+
+	.area_cont, .area {
+		width: 330px;
+	}
+
+	#pre2, #pre3, #fin {
+		width: 590px;
+	}
+
+	#conquistaste .description {
+		right: 20px;
+	}
+
+	#maso .description {
+		right: 10px;
+	}
+
+	#nunca .description {
+		right: 25px;
+	}
+
+	#otra .description {
+		right: 20px;
+	}
+
+	#final {
+	    margin-top: 150px;
+	}
+}
+
+@media(max-width: 600px) {
+	.inner {
+	    width: 435px;
+	}
+
+	.e_pr {
+	    width: 400px;
+	}
+
+	.area_cont, .area {
+	    width: 245px;
+	}
+
+	#ep {
+	    width: 235px;
+	    height: 190px;
+	}
+
+	#por, #pre1, #pre2, #pre3, #fin {
+		width: 430px;
+		margin-bottom: 20px;
+	}
+
+	#si, #no {
+		margin-left: 0px;
+	}
+
+	#si {
+		margin-bottom: 10px;
+	}
+
+	#index_cont {
+	    margin-top: 20px;
+	}
+
+	#cover {
+		margin-top: 100px;
+	}
+
+	#falto, #desastre, #maso, #suck, #otra, #mejor {
+		margin-left: 50px;
+	}
+
+	#ec1, #ec2, #ec3 {
+	    width: 370px;
+	    margin-top: 20px;
+	}
+
+	.area_cont, .area {
+	    width: 230px;
+	}
+}
+
+@media(max-width: 440px) {
+	.inner {
+	    width: 300px;
+	}
+
+	#por, #pre1, #pre2, #pre3, #fin {
+	    width: 300px;
+	}
+
+	.text {
+	    width: 300px;
+	}
+
+	#ep {
+		margin-top: 15px;
+	}
+
+	.emoji_img, .emoji_img img {
+		width: 70px;
+	}
+
+	#ec1, #ec2, #ec3 {
+	    width: 310px;
+	    margin-top: 20px;
+	}
+
+	#falto, #desastre, #maso, #suck, #otra, #mejor {
+		margin-left: 20px;
+	}
+
+	.description {
+		font-size: 13px;
+		line-height: 15px;
+	}
+
+	.emoji {
+		height: 70px;
+	}
+
+	#rifaste .description {
+	    width: 79px;
+	}
+
+	#falto .description {
+	    width: 58px;
+	}
+
+	#desastre .description {
+	    width: 71px;
+	}
+
+	.area_cont {
+		margin-left: 0px;
+	}
+
+	.area_cont, .area {
+	    width: 200px;
+	}
+
+	#conquistaste .description {
+		width: 106px;
+		right: 10px;
+	}
+}
+
+@media(max-height: 550px) {
+	#por {
+		width: 290px;
+	}
+
+	#cover {
+	    margin-top: 30px;
+	}
+
+	#pre1 {
+	    margin-bottom: 20px;
+	}
+
+	.area {
+		height: 78px;
+		margin-bottom: 10px;
+	}
+
+	#pre2 {
+		width: 185px;
+	}
+
+	#pre2 img {
+		width: 185px;
+	}
+
+	#pre3 {
+		width: 100px;
+	}
+
+	#pre3 img {
+		width: 100px;
+	}
+
+	.boton {
+		height: 30px;
+		line-height: 33px;
+	}
 }
