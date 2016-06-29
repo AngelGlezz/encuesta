@@ -72,12 +72,14 @@ $(document).ready(function(){
 		$("#dos").fadeIn();
 		$("#i2 > img").attr('src', 'images/iconos/ic_active2.png');
 		$("#fondo").css('background', 'url(images/backs/back.jpg)');
+		$("#i2").css('background-color', '#fff');
 	};
 	function click2(){
 		$("#dos").fadeOut();
 		$("#tres").fadeIn();
 		$("#i3 > img").attr('src', 'images/iconos/ic_active3.png');
 		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
+		$("#i3").css('background-color', '#fff');
 	};
 });
 
