@@ -7,7 +7,6 @@
 	right: 0px;
 	top: 0px;
 	bottom: 0px;
-
 }
 #cover {
 	height: 700px;
@@ -219,6 +218,7 @@
 #pre1 {
 	width: 520px;
 	margin-bottom: 40px;
+	margin-top: 50px;
 }
 
 #t_pr1 {
@@ -228,6 +228,7 @@
 #pre2 {
 	width: 714px;
 	margin-bottom: 40px;
+	margin-top: 50px;
 }
 
 #dos {
@@ -241,6 +242,7 @@
 #pre3 {
 	width: 662px;
 	margin-bottom: 40px;
+	margin-top: 50px;
 }
 
 #t_pr3 {
@@ -254,6 +256,7 @@
 #fin {
 	width: 750px;
 	margin-bottom: 40px;
+	margin-top: 50px;
 }
 
 #t_fin {
@@ -487,6 +490,7 @@
 
 	#pre1 {
 	    margin-bottom: 20px;
+	    margin-top: 10px;
 	}
 
 	.area {
@@ -495,19 +499,21 @@
 	}
 
 	#pre2 {
-		width: 185px;
+		width: 300px;
+		margin-top: 10px;
 	}
 
 	#pre2 img {
-		width: 185px;
+		width: 300px;
 	}
 
 	#pre3 {
-		width: 100px;
+		width: 300px;
+		margin-top: 10px;
 	}
 
 	#pre3 img {
-		width: 100px;
+		width: 300px;
 	}
 
 	.boton {
