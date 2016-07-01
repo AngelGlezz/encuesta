@@ -496,6 +496,28 @@
 	}
 }
 
+@media(max-height: 800px) {
+	#por {
+		width: 660px;
+	}
+
+	#pre1 {
+		width: 416px;
+	}
+
+	#pre2 {
+		width: 570px;
+	}
+
+	#pre3 {
+		width: 530px;
+	}
+
+	#fin {
+		width: 600px;
+	}
+}
+
 @media(max-height: 550px) {
 	#por {
 		width: 290px;

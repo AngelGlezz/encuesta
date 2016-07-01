@@ -5,17 +5,12 @@ $(document).ready(function(){
 		$("#index_cont").show();
 		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
 	});
+	$("#rifaste").click(click1);
+	$("#conquistaste").click(click2);
 	$(".pre_1").click(function(){
 		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area1">ENVIAR</div></div>';
 		var id = $(this).attr('id');
 		switch (id) {
-			case 'rifaste':
-				$("#rifaste").unbind('click');
-				$("#falto").hide();
-				$("#desastre").hide();
-				$("#ec1").append(div);
-				$(this).css('margin-left', '0px');
-			break;
 			case 'falto':
 				$("#falto").unbind('click');
 				$("#rifaste").hide();
@@ -37,13 +32,6 @@ $(document).ready(function(){
 		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area2">ENVIAR</div></div>';
 		var id = $(this).attr('id');
 		switch (id) {
-			case 'conquistaste':
-				$("#conquistaste").unbind('click');
-				$("#maso").hide();
-				$("#suck").hide();
-				$("#ec2").append(div);
-				$(this).css('margin-left', '0px');
-			break;
 			case 'maso':
 				$("#maso").unbind('click');
 				$("#conquistaste").hide();
