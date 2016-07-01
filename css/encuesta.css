@@ -433,6 +433,7 @@
 
 	#por, #pre1, #pre2, #pre3, #fin {
 	    width: 310px!important;
+	    margin-top: 25px;
 	}
 
 	.text {
