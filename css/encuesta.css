@@ -22,11 +22,8 @@
 }
 
 #index_cont {
-<<<<<<< HEAD
 	margin-top: 50px;
-=======
-	margin-bottom: 25px;
->>>>>>> gh-pages
+
 }
 
 #index {
@@ -271,7 +268,6 @@
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	cursor: pointer;
-<<<<<<< HEAD
 	border-radius: 10px;
 	margin: auto;
 }
@@ -343,84 +339,12 @@
 	}
 
 	.e_pr {
-=======
-}
-
-#index_cont, #cover, #final {		
-	margin-top: 90px;
-}
-
-@media(max-width: 900px) {
-	.inner {
-	    width: 750px;
-	}
-}
-
-@media(max-width: 768px) {
-	.inner {
-	    width: 600px;
-	}
-
-	#t_pr3 {
-	    width: 550px;
-	}
-
-	#t_pr3 img {
-	    width: 550px;
-	}
-
-	#tp, #t_fin {
-	    width: 590px;
-	}
-
-	#tp img, #t_fin img {
-	    width: 590px;
-	}
-}
-
-@media(max-width: 600px) {
-	.inner {
-	    width: 435px;
-	}
-
-	#t_pr3, #t_pr2, #t_pr1 {
-	    width: 430px;
-	}
-
-	#t_pr3 img, #t_pr2 img, #t_pr1 img {
-	    width: 430px;
-	}
-
-	#tp, #t_fin {
-	    width: 390px;
-	}
-
-	#tp img, #t_fin img {
-	    width: 390px;
-	}
-
-	.emoji {
-		margin-left: 50px;
-	}
-
-	.e_pr {
-	    width: 400px;
-	}
-
-	#pre1 {
-	    width: 400px;
-	}
-
-	#pre1 img {
->>>>>>> gh-pages
 	    width: 400px;
 	}
 
 	.area_cont, .area {
 	    width: 245px;
 	}
-
-<<<<<<< HEAD
 	#ep {
 	    width: 235px;
 	    height: 190px;
@@ -468,69 +392,10 @@
 
 	#por, #pre1, #pre2, #pre3, #fin {
 	    width: 300px;
-=======
-	.boton {
-	    width: 241px;
-	}
-
-	#ep {
-	    width: 250px;
-	}
-}
-
-@media(max-width: 440px) {
-	.inner {
-	    width: 300px;
-	}
-
-	#t_pr3, #t_pr2, #t_pr1 {
-	    width: 300px;
-	}
-
-	#t_pr3 img, #t_pr2 img, #t_pr1 img {
-	    width: 300px;
-	}
-
-	#tp, #t_fin {
-	    width: 300px;
-	}
-
-	#tp img, #t_fin img {
-	    width: 300px;
-	}
-
-	.e_pr {
-	    width: 280px;
-	}
-
-	#pre1 {
-	    width: 300px;
-	}
-
-	#pre1 img {
-	    width: 300px;
-	}
-
-	.area_cont, .area {
-	    width: 170px;
-	}
-
-	.area_cont {
-		margin-left: 30px;
-	}
-
-	.boton {
-	    width: 166px;
-	}
-
-	#ep {
-	    width: 220px;
->>>>>>> gh-pages
 	}
 
 	.text {
 	    width: 300px;
-<<<<<<< HEAD
 	}
 
 	#ep {
@@ -577,84 +442,10 @@
 
 	.area_cont, .area {
 	    width: 200px;
-=======
-	    font-size: 14px;
-	    line-height: 20px;
-	}
-
-	#index_cont, #cover, #final {
-	    margin-top: 30px;
-	}
-
-	#por {
-	    margin-bottom: 30px;
-	}
-
-	.cuestion {
-	    margin-bottom: 15px;
-	}
-
-	.emoji_content {
-	    margin-top: 20px;
-	}
-
-	.emoji {
-	    margin-left: 20px;
-	    width: 80px;
-	}
-
-	#rifaste .emoji_img img {
-		width: 80px;
-	}
-
-	#falto .emoji_img img {
-		width: 80px;
-	}
-
-	#desastre .emoji_img img {
-		width: 80px;
-	}
-
-	#conquistaste .emoji_img img {
-		width: 80px;
-	}
-
-	#maso .emoji_img img {
-		width: 80px;
-	}
-
-	#suck .emoji_img img {
-		width: 80px;
-	}
-
-	#nunca .emoji_img img {
-		width: 80px;
-	}
-
-	#otra .emoji_img img {
-		width: 80px;
-	}
-
-	#mejor .emoji_img img {
-		width: 80px;
-	}
-
-	.emoji_img {
-	    width: 80px;
-	    margin-bottom: 15px;
-	}
-
-	.description {
-		width: 80px;
-		left: 0px;
-		font-size: 13px;
-		line-height: 20px;
->>>>>>> gh-pages
 	}
 
 	#conquistaste .description {
 		width: 106px;
-<<<<<<< HEAD
 		right: 10px;
 	}
 }
@@ -666,35 +457,6 @@
 
 	#cover {
 	    margin-top: 30px;
-=======
-    	left: -15px;
-	}
-
-	#no {
-		margin-left: 60px;
-	}
-
-	#uno, #dos, #tres {
-		height: 450px;
-	}
-
-	#pre2 {
-		margin-bottom: 5px;
-	}
-
-	#pre3 {
-		margin-bottom: 15px;
-	}
-}
-
-@media(max-height: 580px) {
-	#por {
-		width: 150px;
-	}
-
-	#por img {
-		width: 150px;
->>>>>>> gh-pages
 	}
 
 	#pre1 {
@@ -702,11 +464,7 @@
 	}
 
 	.area {
-<<<<<<< HEAD
 		height: 78px;
-=======
-		height: 90px;
->>>>>>> gh-pages
 		margin-bottom: 10px;
 	}
 
@@ -725,12 +483,9 @@
 	#pre3 img {
 		width: 100px;
 	}
-<<<<<<< HEAD
-
 	.boton {
 		height: 30px;
 		line-height: 33px;
 	}
-=======
->>>>>>> gh-pages
+
 }
