@@ -1,21 +1,16 @@
 #index_cont, #uno, #dos, #tres, #final {display: none;}
-
-#uno, #dos, #tres, #final,  {
+.abs-center{
 	position: absolute;
-	margin: auto;
 	left: 0px;
 	right: 0px;
 	top: 0px;
 	bottom: 0px;
 }
-#cover {
-	height: 700px;
-}
-
 #page {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+	position: relative;
 }
 
 #fondo {
@@ -35,11 +30,8 @@
 }
 
 #index_cont {
-<<<<<<< HEAD
-	margin-bottom: 25px;
-=======
 	margin-top: 50px;
->>>>>>> origin/gh-pages
+
 }
 
 #index {
@@ -62,10 +54,6 @@
 	border-radius: 50%;
 }
 
-#i1 {
-	background-color: #fff;
-}
-
 .icono {
 	position: relative;
 	top: 5px;
@@ -78,6 +66,7 @@
 }
 
 .juan {
+	margin-top: 40px;
 	height: auto;
 	margin: auto;
 }
@@ -199,7 +188,7 @@
 }
 
 #uno {
-	height: 700px;
+	height: 610px;
 }
 
 #ec1 {
@@ -217,7 +206,6 @@
 #pre1 {
 	width: 520px;
 	margin-bottom: 40px;
-	margin-top: 50px;
 }
 
 #t_pr1 {
@@ -227,7 +215,6 @@
 #pre2 {
 	width: 714px;
 	margin-bottom: 40px;
-	margin-top: 50px;
 }
 
 #dos {
@@ -241,7 +228,6 @@
 #pre3 {
 	width: 662px;
 	margin-bottom: 40px;
-	margin-top: 50px;
 }
 
 #t_pr3 {
@@ -249,7 +235,7 @@
 }
 
 #tres {
-	height: 625px;
+	height: 610px;
 }
 
 #fin {
@@ -261,71 +247,36 @@
 	width: 694px;
 }
 
-<<<<<<< HEAD
-=======
-#final {
-	margin-top: 150px;
-}
-
->>>>>>> origin/gh-pages
 .area_cont {
-	width: 413px;
+	width: 416px;
 	height: 166px;
 	position: relative;
 	float: left;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 
 .area {
-	width: 318px;
-    height: 105px;
-    border: 1px solid #438646;
-    background: #fff;
-    margin-bottom: 15px;
-    color: #3da65a;
-    border-radius: 10px;
-    font-size: 20px;
-    float: left;
+	width: 330px;
+	height: 105px;
+	border: 1px solid #438646;
+	background: #3da65a; 
+	margin-bottom: 15px;
+	color: #ffffff;
+	border-radius: 10px;
 }
 
 .boton {
-<<<<<<< HEAD
-	width: 340px;
-	height: 36px;
-	border: 2px solid #666d70;
-	background: #151b26;
-	font-size: 16px;
-	color: #ffffff;
-	line-height: 28px;
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
+	width: 56px;
+	height: 56px;
+	background-color: #fff;
+	background-image: url("../images/iconos/ic_enviar.png");
+	background-repeat: no-repeat;
+	background-position: center;
 	cursor: pointer;
-}
-
-#index_cont, #cover, #final {		
-	margin-top: 90px;
-}
-
-@media(max-width: 900px) {
-	.inner {
-	    width: 750px;
-	}
-=======
-	width: 85px;
-    height: 50px;
-    background: #fff;
-    font-size: 16px;
-    color: #3da65a;
-    line-height: 50px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-    margin-left: 10px;
-    float: left;
-    position: relative;
-    top: 25px;
->>>>>>> origin/gh-pages
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 35px;
 }
 
 @media(max-width: 768px) {
@@ -333,197 +284,6 @@
 	    width: 600px;
 	}
 
-<<<<<<< HEAD
-	#t_pr3 {
-	    width: 550px;
-	}
-
-	#t_pr3 img {
-	    width: 550px;
-	}
-
-	#tp, #t_fin {
-	    width: 590px;
-	}
-
-	#tp img, #t_fin img {
-	    width: 590px;
-	}
-}
-
-@media(max-width: 600px) {
-	.inner {
-	    width: 435px;
-	}
-
-	#t_pr3, #t_pr2, #t_pr1 {
-	    width: 430px;
-	}
-
-	#t_pr3 img, #t_pr2 img, #t_pr1 img {
-	    width: 430px;
-	}
-
-	#tp, #t_fin {
-	    width: 390px;
-	}
-
-	#tp img, #t_fin img {
-	    width: 390px;
-	}
-
-	.emoji {
-		margin-left: 50px;
-	}
-
-	.e_pr {
-	    width: 400px;
-	}
-
-	#pre1 {
-	    width: 400px;
-	}
-
-	#pre1 img {
-	    width: 400px;
-	}
-
-	.area_cont, .area {
-	    width: 245px;
-	}
-
-	.boton {
-	    width: 241px;
-	}
-
-	#ep {
-	    width: 250px;
-	}
-}
-
-@media(max-width: 440px) {
-	.inner {
-	    width: 300px;
-	}
-
-	#t_pr3, #t_pr2, #t_pr1 {
-	    width: 300px;
-	}
-
-	#t_pr3 img, #t_pr2 img, #t_pr1 img {
-	    width: 300px;
-	}
-
-	#tp, #t_fin {
-	    width: 300px;
-	}
-
-	#tp img, #t_fin img {
-	    width: 300px;
-	}
-
-	.e_pr {
-	    width: 280px;
-	}
-
-	#pre1 {
-	    width: 300px;
-	}
-
-	#pre1 img {
-	    width: 300px;
-	}
-
-	.area_cont, .area {
-	    width: 170px;
-	}
-
-	.area_cont {
-		margin-left: 30px;
-	}
-
-	.boton {
-	    width: 166px;
-	}
-
-	#ep {
-	    width: 220px;
-	}
-
-	.text {
-	    width: 300px;
-	    font-size: 14px;
-	    line-height: 20px;
-	}
-
-	#index_cont, #cover, #final {
-	    margin-top: 30px;
-	}
-
-	#por {
-	    margin-bottom: 30px;
-	}
-
-	.cuestion {
-	    margin-bottom: 15px;
-	}
-
-	.emoji_content {
-	    margin-top: 20px;
-	}
-
-	.emoji {
-	    margin-left: 20px;
-	    width: 80px;
-	}
-
-	#rifaste .emoji_img img {
-		width: 80px;
-	}
-
-	#falto .emoji_img img {
-		width: 80px;
-	}
-
-	#desastre .emoji_img img {
-		width: 80px;
-	}
-
-	#conquistaste .emoji_img img {
-		width: 80px;
-	}
-
-	#maso .emoji_img img {
-		width: 80px;
-	}
-
-	#suck .emoji_img img {
-		width: 80px;
-	}
-
-	#nunca .emoji_img img {
-		width: 80px;
-	}
-
-	#otra .emoji_img img {
-		width: 80px;
-	}
-
-	#mejor .emoji_img img {
-		width: 80px;
-	}
-
-	.emoji_img {
-	    width: 80px;
-	    margin-bottom: 15px;
-	}
-
-	.description {
-		width: 80px;
-		left: 0px;
-		font-size: 13px;
-		line-height: 20px;
-=======
 	#por {
 		width: 590px;
 	}
@@ -578,11 +338,6 @@
 	#final {
 	    margin-top: 150px;
 	}
-
-	.boton {
-		top: 0px;
-		margin: auto;
-	}
 }
 
 @media(max-width: 600px) {
@@ -597,7 +352,6 @@
 	.area_cont, .area {
 	    width: 245px;
 	}
-
 	#ep {
 	    width: 235px;
 	    height: 190px;
@@ -636,11 +390,6 @@
 	.area_cont, .area {
 	    width: 230px;
 	}
-
-	.boton {
-		top: 0px;
-		margin: auto;
-	}
 }
 
 @media(max-width: 440px) {
@@ -649,8 +398,7 @@
 	}
 
 	#por, #pre1, #pre2, #pre3, #fin {
-	    width: 310px!important;
-	    margin-top: 25px;
+	    width: 300px;
 	}
 
 	.text {
@@ -701,68 +449,11 @@
 
 	.area_cont, .area {
 	    width: 200px;
->>>>>>> origin/gh-pages
 	}
 
 	#conquistaste .description {
 		width: 106px;
-<<<<<<< HEAD
-    	left: -15px;
-	}
-
-	#no {
-		margin-left: 60px;
-	}
-
-	#uno, #dos, #tres {
-		height: 450px;
-	}
-
-	#pre2 {
-		margin-bottom: 5px;
-	}
-
-	#pre3 {
-		margin-bottom: 15px;
-	}
-}
-
-@media(max-height: 580px) {
-	#por {
-		width: 150px;
-	}
-
-	#por img {
-		width: 150px;
-=======
 		right: 10px;
-	}
-
-	.boton {
-		top: 0px;
-		margin: auto;
-	}
-}
-
-@media(max-height: 800px) {
-	#por {
-		width: 660px;
-	}
-
-	#pre1 {
-		width: 416px;
-	}
-
-	#pre2 {
-		width: 570px;
-	}
-
-	#pre3 {
-		width: 530px;
-	}
-
-	#fin {
-		width: 600px;
 	}
 }
 
@@ -773,28 +464,18 @@
 
 	#cover {
 	    margin-top: 30px;
->>>>>>> origin/gh-pages
 	}
 
 	#pre1 {
 	    margin-bottom: 20px;
-<<<<<<< HEAD
-	}
-
-	.area {
-		height: 90px;
-=======
-	    margin-top: 10px;
 	}
 
 	.area {
 		height: 78px;
->>>>>>> origin/gh-pages
 		margin-bottom: 10px;
 	}
 
 	#pre2 {
-<<<<<<< HEAD
 		width: 185px;
 	}
 
@@ -808,29 +489,10 @@
 
 	#pre3 img {
 		width: 100px;
-=======
-		width: 300px;
-		margin-top: 10px;
 	}
-
-	#pre2 img {
-		width: 300px;
-	}
-
-	#pre3 {
-		width: 300px;
-		margin-top: 10px;
-	}
-
-	#pre3 img {
-		width: 300px;
-	}
-
 	.boton {
 		height: 30px;
 		line-height: 33px;
-		top: 0px;
-		margin: auto;
->>>>>>> origin/gh-pages
 	}
+
 }

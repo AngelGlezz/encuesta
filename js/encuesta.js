@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$("#rifaste").click(click1);
 	$("#conquistaste").click(click2);
 	$(".pre_1").click(function(){
-		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area1">ENVIAR</div></div>';
+		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area1"></div></div>';
 		var id = $(this).attr('id');
 		switch (id) {
 			case 'falto':
@@ -29,7 +29,7 @@ $(document).ready(function(){
 		$("#area1").click(click1);
 	});
 	$(".pre_2").click(function(){
-		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area2">ENVIAR</div></div>';
+		var div = '<div class="area_cont"><textarea class="area"></textarea><div class="boton" id="area2"></div></div>';
 		var id = $(this).attr('id');
 		switch (id) {
 			case 'maso':
@@ -50,16 +50,10 @@ $(document).ready(function(){
 		$("#area2").click(click2);
 	});
 	$(".pre_3").click(function(){
-<<<<<<< HEAD
-		$("#tres").fadeOut();
-		$("#final").fadeIn();
-		$("#index_cont").hide();
-=======
 		$("#tres").hide();
 		$("#final").fadeIn();
 		$("#index_cont").hide();
 		$("#fondo").css('background', 'url(images/backs/back.jpg)');
->>>>>>> origin/gh-pages
 	});
 	function click1(){
 		$("#uno").hide();
@@ -71,18 +65,8 @@ $(document).ready(function(){
 	function click2(){
 		$("#dos").hide();
 		$("#tres").fadeIn();
-<<<<<<< HEAD
-		$("#i3").css('background', '#adf21f');
-=======
 		$("#i3 > img").attr('src', 'images/iconos/ic_active3.png');
 		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
 		$("#i3").css('background-color', '#fff');
->>>>>>> origin/gh-pages
 	};
 });
-
-		
-
-		
-
-		
