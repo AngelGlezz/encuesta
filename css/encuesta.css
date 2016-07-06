@@ -14,7 +14,7 @@
 }
 
 #fondo {
-	background: url(../images/backs/back.jpg) no-repeat;
+	background: url(/images/juanfutbol/mediakit/encuesta/backs/back.jpg) no-repeat;
 	background-size: auto 100%;
 	background-position: center;
 	background-color: #000;
@@ -248,7 +248,7 @@
 }
 
 .area_cont {
-	width: 416px;
+	width: 320px;
 	height: 166px;
 	position: relative;
 	float: left;
@@ -256,7 +256,7 @@
 }
 
 .area {
-	width: 330px;
+	width: 240px;
 	height: 105px;
 	border: 1px solid #438646;
 	background: #3da65a; 
@@ -269,7 +269,7 @@
 	width: 56px;
 	height: 56px;
 	background-color: #fff;
-	background-image: url("../images/iconos/ic_enviar.png");
+	background-image: url("/images/juanfutbol/mediakit/encuesta/iconos/ic_enviar.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	cursor: pointer;
@@ -311,10 +311,6 @@
 	    width: 470px;
 	}
 
-	.area_cont, .area {
-		width: 330px;
-	}
-
 	#pre2, #pre3, #fin {
 		width: 590px;
 	}
@@ -334,9 +330,11 @@
 	#otra .description {
 		right: 20px;
 	}
-
-	#final {
-	    margin-top: 150px;
+	#dos {
+	    height: 550px;
+	}
+	#tres {
+	    height: 640px;
 	}
 }
 
@@ -374,10 +372,6 @@
 	    margin-top: 20px;
 	}
 
-	#cover {
-		margin-top: 100px;
-	}
-
 	#falto, #desastre, #maso, #suck, #otra, #mejor {
 		margin-left: 50px;
 	}
@@ -389,6 +383,16 @@
 
 	.area_cont, .area {
 	    width: 230px;
+	}
+	.boton {
+		margin: auto;
+		display: block;
+	}
+	#dos {
+	    height: 445px;
+	}
+	#tres {
+	    height: 500px;
 	}
 }
 
@@ -455,6 +459,18 @@
 		width: 106px;
 		right: 10px;
 	}
+	#uno {
+	    height: 418px;
+	}
+	#dos {
+	    height: 330px;
+	}
+	#tres {
+	    height: 380px;
+	}
+	#final {
+	    height: 240px;
+	}
 }
 
 @media(max-height: 550px) {
@@ -473,26 +489,7 @@
 	.area {
 		height: 78px;
 		margin-bottom: 10px;
-	}
-
-	#pre2 {
-		width: 185px;
-	}
-
-	#pre2 img {
-		width: 185px;
-	}
-
-	#pre3 {
-		width: 100px;
-	}
-
-	#pre3 img {
-		width: 100px;
-	}
-	.boton {
-		height: 30px;
-		line-height: 33px;
-	}
+	}	
+	
 
 }

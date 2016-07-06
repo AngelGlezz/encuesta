@@ -1,9 +1,12 @@
 $(document).ready(function(){
+	resize();
+	$(window).resize(resize);
 	$("#si").click(function(){
 		$("#cover").hide();
 		$("#uno").fadeIn();
 		$("#index_cont").show();
-		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
+		$("#fondo").css('background', 'url(/images/juanfutbol/mediakit/encuesta/backs/back2.jpg)');
+		resize();
 	});
 	$("#rifaste").click(click1);
 	$("#conquistaste").click(click2);
@@ -53,20 +56,33 @@ $(document).ready(function(){
 		$("#tres").hide();
 		$("#final").fadeIn();
 		$("#index_cont").hide();
-		$("#fondo").css('background', 'url(images/backs/back.jpg)');
+		$("#fondo").css('background', 'url(/images/juanfutbol/mediakit/encuesta/backs/back.jpg)');
+		resize();
 	});
 	function click1(){
 		$("#uno").hide();
 		$("#dos").fadeIn();
-		$("#i2 > img").attr('src', 'images/iconos/ic_active2.png');
-		$("#fondo").css('background', 'url(images/backs/back.jpg)');
+		$("#i2 > img").attr('src', '/images/juanfutbol/mediakit/encuesta/iconos/ic_active2.png');
+		$("#fondo").css('background', 'url(/images/juanfutbol/mediakit/encuesta/backs/back.jpg)');
 		$("#i2").css('background-color', '#fff');
+		resize();
 	};
 	function click2(){
 		$("#dos").hide();
 		$("#tres").fadeIn();
-		$("#i3 > img").attr('src', 'images/iconos/ic_active3.png');
-		$("#fondo").css('background', 'url(images/backs/back2.jpg)');
+		$("#i3 > img").attr('src', '/images/juanfutbol/mediakit/encuesta/iconos/ic_active3.png');
+		$("#fondo").css('background', 'url(/images/juanfutbol/mediakit/encuesta/backs/back2.jpg)');
 		$("#i3").css('background-color', '#fff');
+		resize();
 	};
+	function resize(){
+		var elem = null;
+		$(".inner.abs-center > div").each(function(){
+			if($(this).css("display") === "block"){
+				elem = $(this);
+			}		
+		});
+		console.log($(elem).height());
+		$(".inner.abs-center").height($(elem).height());
+	}
 });
